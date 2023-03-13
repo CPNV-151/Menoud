@@ -2,7 +2,7 @@
 
 session_start();
 require "controller/navigation.php";
-require "controller/snownavigation.php";
+require "controller/snows.php";
 
 if (isset($_GET['action'])) {
   $action = $_GET['action'];
@@ -10,8 +10,11 @@ if (isset($_GET['action'])) {
       case 'home' :
           home();
           break;
+      case 'snows' :
+          snows();
+          break;
       case 'snow' :
-          snow();
+          snow($_GET['code']);
           break;
       default :
           lost();

@@ -65,7 +65,7 @@
                         <div class="nav-collapse collapse">
                             <ul class="nav nav-pills ddmenu">
                                 <li><a href="index.php?action=home">Home</a></li>
-                                <li><a href="index.php?action=snow">snowboard</a></li>
+                                <li><a href="index.php?action=snows">Snows</a></li>
                             </ul>
                         </div>
                     </div>
